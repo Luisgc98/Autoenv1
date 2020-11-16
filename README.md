@@ -67,7 +67,7 @@
 
    - Luego nos pedirá una "User Secret", para esto iremos a nuestra aplicación Botic, en la sección donde se encuentra nuestro correo, se desplegará un menú donde se encontrará el apartado de "Perfil", ingresamos y en la parte izquierda, habrá una sección que se llama "secret key": 
 
-    ![dates_profile](https://lh3.googleusercontent.com/-W9R0KBc098Y/X7IKSVdm-_I/AAAAAAAAFXg/4ewK2qOHr7Mrbuczu5UlhAspKPTyD_OfwCK8BGAsYHg/s0/Captura%2Bde%2Bpantalla%2Bde%2B2020-11-15%2B23-12-23.png)
+   ![dates_profile](https://lh3.googleusercontent.com/-W9R0KBc098Y/X7IKSVdm-_I/AAAAAAAAFXg/4ewK2qOHr7Mrbuczu5UlhAspKPTyD_OfwCK8BGAsYHg/s0/Captura%2Bde%2Bpantalla%2Bde%2B2020-11-15%2B23-12-23.png)
 
    - Copiamos la llave y la pegamos en nuestra terminal:
 
