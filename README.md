@@ -65,7 +65,7 @@
         Portal URL []:http://127.0.0.1:5002
    ```
 
-   - Luego nos pedirá una "User Secret", para esto iremos a nuestra aplicación Botic, en la sección donde se encuentra nuestro correo, se desplegará un menú donde se encontrará el apartado de "Perfil", ingresamos y en la parte izquierda, habrá una sección que se llama "secret key": 
+   - Luego nos pedirá una "User Secret", para esto iremos a nuestra aplicación Botic, en la sección donde se encuentra nuestro correo, se desplegará un menú donde se encontrará el apartado de "Perfil", ingresamos y en la parte izquierda, encontraremos nuestra User Secret en la sección Perfil/User Secret: 
 
    ![dates_profile](https://lh3.googleusercontent.com/-W9R0KBc098Y/X7IKSVdm-_I/AAAAAAAAFXg/4ewK2qOHr7Mrbuczu5UlhAspKPTyD_OfwCK8BGAsYHg/s0/Captura%2Bde%2Bpantalla%2Bde%2B2020-11-15%2B23-12-23.png)
 
@@ -92,5 +92,7 @@
    ```
 
    - Esto activará el portal de nuestro ordenador, y listo! Ya tendremos nuestro ordenador registrado como bot y listo para realizar las tareas que subas.
+   
+   ![bot_conect](https://lh3.googleusercontent.com/-p2Ih3F_NvqQ/X7ITD3weKrI/AAAAAAAAFYs/lBSP6XzRfAI3ypywFWL_6Yr6CSddZtVrgCK8BGAsYHg/s0/Captura%2Bde%2Bpantalla%2Bde%2B2020-11-15%2B23-49-13.png)
        
-###### Si ha llegado hasta este punto, ¡felicidades! Ya ha logrado registrar su ordenador de manera correcta en la aplicación de Botic y está listo para subir las tareas a realizar de manera calendarizada. 
+###### Si ha llegado hasta este punto, ¡felicidades! Ya ha logrado registrar su ordenador de manera correcta en la aplicación de Botic y está listo para subir las tareas a realizar de manera calendarizada. La próxima vez que quiera volver a usar su bot, basta con activar el ambiente virtual de su carpeta botic-autoengine y usar el comando python -m autoengine.cli bot, y listo! Ya estará haciendo uso de su bot nuevamente.
