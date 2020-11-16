@@ -95,4 +95,6 @@
    
    ![bot_conect](https://lh3.googleusercontent.com/-p2Ih3F_NvqQ/X7ITD3weKrI/AAAAAAAAFYs/lBSP6XzRfAI3ypywFWL_6Yr6CSddZtVrgCK8BGAsYHg/s0/Captura%2Bde%2Bpantalla%2Bde%2B2020-11-15%2B23-49-13.png)
        
-###### Si ha llegado hasta este punto, ¡felicidades! Ya ha logrado registrar su ordenador de manera correcta en la aplicación de Botic y está listo para subir las tareas a realizar de manera calendarizada. La próxima vez que quiera volver a usar su bot, basta con activar el ambiente virtual de su carpeta botic-autoengine y usar el comando python -m autoengine.cli bot, y listo! Ya estará haciendo uso de su bot nuevamente.
+       
+
+###### Si ha llegado hasta este punto, ¡Felicidades! Ya ha logrado registrar su ordenador de manera correcta en la aplicación de Botic y está listo para subir las tareas a realizar de manera calendarizada. La próxima vez que quiera volver a usar su bot, basta con activar el ambiente virtual de su carpeta botic-autoengine, usar el comando python -m autoengine.cli bot, y listo! Ya estará haciendo uso de su bot nuevamente de manera correcta.
