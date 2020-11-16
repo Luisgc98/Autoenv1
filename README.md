@@ -18,43 +18,61 @@
 #### <h4>Crear el ambiente virtual en botic-autoengine y conexión de nuestro ordenador como bot en la aplicación de Botic</h4>
    ###### Para este paso, el servidor de su aplicación Botic tiene que estar desplegada de manera local en su ordenador.
        
-   - Antes de crear nuestro ambiente virtual nos tenemos que posicionar en la carpeta de botic-autoengine, una vez ahí proseguimos con el
+   - Para crear estos ambientes haremos uso de nuestra línea de comandos, en caso de Windows usaremos PowerShell, y en Linux nuestra terminal de siempre. Antes de crear nuestro ambiente virtual nos tenemos que posicionar en la carpeta de botic-app, una vez ahí proseguimos con el
       siguiente paso.
 
    - Para crear ambientes virtuales con Python 3.7.4, usamos el siguiente comando, reemplazando "tu_ambiente_virtual" por el nombre
-      que le quieras poner a tu ambiente:
-      
-   ```bash
-        $ python3.7 -m venv tu_ambiente_virtual
-   ```
+      que le quieras poner a tu ambiente. En caso de der usuario Windows, basta con poner el comando único "python" sin el numero de la verisón:
+       ```bash
+           $ # Linux
+           $ python3.7 -m venv tu_ambiente_virtual
+       ```
+       ```cmd
+           > # Windows
+           > python -m venv tu_ambiente_virtual
+       ```
     
    - Terminando el proceso, nos aparecerá una carpeta con el nombre que le hayamos puesto a nuestro ambiente virtual.
       Para activarlo usamos el siguiente comando:
-      
-   ```bash
-        $ source tu_ambiente_virtual/bin/activate
-   ```
+       ```bash
+           $ source tu_ambiente_virtual/bin/activate
+       ```
+       - En caso de ser usuario Windows, ingrese a la carpeta llamada Scripts y accione el comando "activate" de la siguiente manera:
+       ```cmd
+           > cd Scripts
+           > activate
+       ```
    
    - Al activarlo nos marcará entre parentesis el nombre de nuestro ambiente:
    
-   ```bash
-        (tu_ambiente_virtual) $ 
-   ```
+      ```bash
+           (tu_ambiente_virtual) $ 
+      ```
     
-   - Una vez activado nuestro ambiente, proseguimos con la instalación de los requerimientos para la configuración de automagica (que es la herramienta con la que se hacen las diferentes acciones posibles en la app), para esto usamos el siguiente comando:
+   - Una vez activado nuestro ambiente, proseguimos con la instalación de los requerimientos para la configuración de automagica (que es la herramienta con la que se hacen las diferentes acciones posibles en la app), para esto usamos el siguiente comando. En caso de der usuario Windows, basta con poner el comando único "python" sin el numero de la verisón:
     
-   ```bash
-        (tu_ambiente_virtual) $ python3.7 -m pip install .
-   ```
+      ```bash
+           (tu_ambiente_virtual) $ # Linux
+           (tu_ambiente_virtual) $ python3.7 -m pip install .
+      ```
+      ```cmd
+           (tu_ambiente_virtual) > # Windows
+           (tu_ambiente_virtual) > python -m pip install .
+       ```
 
    - Una vez terminando la instalación, proseguimos con la configuración de automagica, para esto usamos el siguiente comando:
-     ###### Nota: puede haber errores al usar la orden "python3.7", así que usaremos la orden única "python".
+     ###### Nota: puede haber errores al usar la orden "python3.7", así que usaremos la orden única "python" sin el número de versión.
 
-   ```bash
-        (tu_ambiente_virtual) $ python -m autoengine.cli configure
-   ```
+      ```bash
+           (tu_ambiente_virtual) $ # Linux
+           (tu_ambiente_virtual) $ python -m autoengine.cli configure
+      ```
+      ```cmd
+           (tu_ambiente_virtual) > # Windows
+           (tu_ambiente_virtual) > python -m automagica.cli configure
+      ```
 
-   - Al accionar este comando, nos aparecerá una opción para registrar una URL donde se hará la conexión con el portal de nuestra aplicación Botic. Aquí usted debe ingresar la URL donde corren nuestros servicios Rest, o sea, el servidor que corre en el puerto 5002: 
+   - Al accionar este comando, nos aparecerá una opción para registrar una URL donde se hará la conexión con el portal de nuestra aplicación Botic. Aquí usted debe ingresar la URL donde corren nuestros servicios Rest (quitando el último slash), o sea, el servidor que corre en el puerto 5002: 
 
    ```bash
         Bot Player Configuration
