@@ -24,45 +24,46 @@
    - Para crear ambientes virtuales con Python 3.7.4, usamos el siguiente comando, reemplazando "tu_ambiente_virtual" por el nombre
       que le quieras poner a tu ambiente:
       
-    ```bash
+   ```bash
         $ python3.7 -m venv tu_ambiente_virtual
-    ```
+   ```
     
    - Terminando el proceso, nos aparecerá una carpeta con el nombre que le hayamos puesto a nuestro ambiente virtual.
       Para activarlo usamos el siguiente comando:
       
-    ```bash
+   ```bash
         $ source tu_ambiente_virtual/bin/activate
-    ```
+   ```
+   
    - Al activarlo nos marcará entre parentesis el nombre de nuestro ambiente:
    
-    ```bash
+   ```bash
         (tu_ambiente_virtual) $ 
-    ```
+   ```
     
    - Una vez activado nuestro ambiente, proseguimos con la instalación de los requerimientos para la configuración de automagica (que es la herramienta con la que se hacen las diferentes acciones posibles en la app), para esto usamos el siguiente comando:
     
-    ```bash
+   ```bash
         (tu_ambiente_virtual) $ python3.7 -m pip install .
-    ```
+   ```
 
    - Una vez terminando la instalación, proseguimos con la configuración de automagica, para esto usamos el siguiente comando:
      ###### Nota: puede haber errores al usar la orden "python3.7", así que usaremos la orden única "python".
 
-    ```bash
+   ```bash
         (tu_ambiente_virtual) $ python -m autoengine.cli configure
-    ```
+   ```
 
    - Al accionar este comando, nos aparecerá una opción para registrar una URL donde se hará la conexión con el portal de nuestra aplicación Botic. Aquí usted debe ingresar la URL donde corren nuestros servicios Rest, o sea, el servidor que corre en el puerto 5002: 
 
-    ```bash
+   ```bash
         Bot Player Configuration
 
         To register bot player you need login with portal
         Leave a value empty to enter the proposed or default value between [brackets].
 
         Portal URL []:http://127.0.0.1:5002
-    ```
+   ```
 
    - Luego nos pedirá una "User Secret", para esto iremos a nuestra aplicación Botic, en la sección donde se encuentra nuestro correo, se desplegará un menú donde se encontrará el apartado de "Perfil", ingresamos y en la parte izquierda, habrá una sección que se llama "secret key": 
 
@@ -70,7 +71,7 @@
 
    - Copiamos la llave y la pegamos en nuestra terminal:
 
-    ```bash
+   ```bash
         Bot Player Configuration
 
         To register bot player you need login with portal
@@ -78,17 +79,17 @@
 
         Portal URL []:http://127.0.0.1:5002
         User Secret []:your_user_secret
-    ```
+   ```
 
    - Echo esto, nuestro ordenador quedará registrada como un bot en la aplicación de Botic. Podemos confirmarlo en la [página principal de Botic](http://127.0.0.1:5000/index), donde podremos ver un recuadro en la parte de la izquiera con el nombre de nuestro ordenador: 
 
-    ![cpu_bot](https://lh3.googleusercontent.com/-oLppsa0ipVc/X7INTdalvUI/AAAAAAAAFYQ/Fi7S_HknHmwwzON5QOE0veNstJhQWwA6wCK8BGAsYHg/s0/Captura%2Bde%2Bpantalla%2Bde%2B2020-11-15%2B23-25-22.png)
+   ![cpu_bot](https://lh3.googleusercontent.com/-oLppsa0ipVc/X7INTdalvUI/AAAAAAAAFYQ/Fi7S_HknHmwwzON5QOE0veNstJhQWwA6wCK8BGAsYHg/s0/Captura%2Bde%2Bpantalla%2Bde%2B2020-11-15%2B23-25-22.png)
 
    - Como podremos observar, el estado de este bot se encuentra desconectado. Para activarlo vamos a la línea de comandos donde tenemos activado nuestro ambiente virtual de la carpeta botic-autoengine, e ingresamos el siguiente comando:
 
-    ```bash
+   ```bash
         python -m autoengine.cli bot
-    ```
+   ```
 
    - Esto activará el portal de nuestro ordenador, y listo! Ya tendremos nuestro ordenador registrado como bot y listo para realizar las tareas que subas.
        
