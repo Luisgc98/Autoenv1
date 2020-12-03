@@ -29,7 +29,7 @@
        ```
        ```cmd
            > # Windows
-           > python -m venv tu_ambiente_virtual
+           > "dierectorio_donde_esta_instalado_phython\Python\Python37\python" -m venv Nombre_del_ambiente
        ```
     
    - Terminando el proceso, nos aparecerá una carpeta con el nombre que le hayamos puesto a nuestro ambiente virtual.
